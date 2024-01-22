@@ -202,7 +202,7 @@ body {
   background-color: #f00;
   border-radius: 15px 0px 15px 15px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .img-1 {
   height: 400px;
@@ -215,5 +215,23 @@ body {
   margin: 0px 50px;
   border-radius: 16px;
   width: 660px;
+}
+.porfolio-img {
+  padding: 0px 80px;
+  margin: 0px 50px;
+}
+.p-img {
+  height: 340px;
+  margin: 5px;
+}
 
+.subscribe {
+  padding: 50px 100px;
+  margin: 100px 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
 }
