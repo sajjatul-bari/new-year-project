@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.heading-text {
+  font-family: "Merriweather", serif;
+}
+.banner {
+  padding: 177px 0px;
+  margin: 50px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Banner\ Image.png);
+
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.text-area {
+  width: 600px;
+  margin: 0 auto;
+}
+.heading-main-h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.heading-main-h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.heading-main-h5 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.p-tag {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.heading-short-text {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.heading-text {
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+.categories {
+  margin: 0 auto;
+  margin: 100px 50px 50px 0px;
+  padding: 0px 177px;
+}
+.categories img {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+.welcome-banner {
+  padding: 50px 100px;
+  margin: 100px 50px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Vectorrr.png);
+
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcome-banner h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.welcome-banner img {
+  height: 350px;
+}
+.btn-main {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  background: #f00;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 2px solid #f00;
+}
+.btn-main:hover {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid #f00;
+}
+
+.time-place {
+  padding: 50px 100px;
+  margin: 100px 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+}
+.text-area {
+  margin-top: 50px;
+}
+.time-place h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+.color {
+  color: #f00;
+}
+
+.coming-soon {
+  padding: 50px 100px;
+  margin: 100px 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.img-party {
+  height: 200px;
+  border: 8px solid #f00;
+  border-radius: 50%;
+  padding: 15px;
+}
+.area {
+  width: 33.33%;
+}
+
+.sale {
+  padding: 50px 100px;
+  margin: 0px 50px;
+  border-radius: 16px;
+}
+
+.discount {
+  padding: 50px 100px;
+  margin: 0px 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.blank-sec {
+  height: 130px;
+  max-width: 80%;
+  margin-left: 127px;
+  margin-top: -78px;
+  background-color: #f00;
+  border-radius: 15px 0px 15px 15px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.img-1 {
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -140px;
+}
+.portfolio {
+  padding: 50px 80px;
+  margin: 0px 50px;
+  border-radius: 16px;
+  width: 660px;
+
+}
