@@ -87,9 +87,7 @@ body {
 }
 
 .categories {
-  margin: 0 auto;
-  margin: 100px 50px 50px 0px;
-  padding: 0px 177px;
+  margin: 100px 50px 100px 50px;
 }
 .categories img {
   width: 800px;
@@ -117,11 +115,11 @@ body {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   position: absolute;
 }
-.area1 {
+.area-text {
   width: 50%;
   margin-left: 80px;
 }
-.area2 {
+.area-img {
   width: 30%;
 }
 
@@ -189,26 +187,30 @@ body {
 }
 
 .coming-soon {
-  padding: 50px 100px;
-  margin: 100px 50px;
+  width: 90%;
+  padding: 50px 0px;
+  margin: 100px 0px 0px 50px;
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 10px;
 }
 .img-party {
   height: 200px;
   border: 8px solid #f00;
   border-radius: 50%;
-  padding: 15px;
+  padding: 18px;
 }
 .area {
-  width: 33.33%;
+  width: 40%;
+}
+.area1 {
+  width: 30%;
 }
 
 .sale {
-  padding: 50px 100px;
+  padding: 50px 100px 100px 100px;
   margin: 0px 50px;
   border-radius: 16px;
 }
@@ -239,17 +241,17 @@ body {
   margin-top: -140px;
 }
 .portfolio {
-  padding: 50px 80px;
+  padding: 50px 0px;
   margin: 0px 50px;
   border-radius: 16px;
   width: 660px;
 }
 .porfolio-img {
-  padding: 0px 80px;
+  padding: 0px 0px;
   margin: 0px 50px;
 }
 .p-img {
-  height: 340px;
+  height: 399px;
   margin: 5px;
 }
 
@@ -328,10 +330,11 @@ body {
   line-height: 30px;
 }
 .footer-social {
-  padding: 30px 0px 30px 400px;
+  padding: 30px 0px 30px 350px;
 }
 .footer-social img {
   height: 50px;
+  margin: 10px;
 }
 .footer-last {
   display: flex;
