@@ -12,15 +12,29 @@ body {
   font-family: "Merriweather", serif;
 }
 .banner {
-  padding: 177px 0px;
+  width: 92%;
+  height: 550px;
   margin: 50px;
-  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(images/Banner\ Image.png);
-
-  background-blend-mode: overlay;
+  background-image: url(images/Banner\ Image.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 16px;
+  position: relative;
+}
+.heading-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading-text-area {
+  width: 600px;
 }
 .text-area {
   width: 600px;
@@ -84,25 +98,39 @@ body {
   margin-left: -50px;
 }
 .welcome-banner {
-  padding: 50px 100px;
-  margin: 100px 50px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(images/Vectorrr.png);
-
-  background-blend-mode: overlay;
+  width: 92%;
+  height: 500px;
+  margin: 50px;
+  background-image: url(images/Vectorrr.png);
   background-position: center;
   background-size: cover;
   border-radius: 16px;
+  position: relative;
+}
+.welcome-banner-overlay {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  position: absolute;
 }
+.area1 {
+  width: 50%;
+  margin-left: 80px;
+}
+.area2 {
+  width: 30%;
+}
+
 .welcome-banner h1 {
   color: #fff;
   font-family: Merriweather;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 900;
-  line-height: 88px;
+  line-height: 78px;
   letter-spacing: 7.04px;
 }
 
@@ -113,20 +141,20 @@ body {
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   padding: 16px 32px;
   background: #f00;
   border: none;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 25px;
   border: 2px solid #f00;
 }
 .btn-main:hover {
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   padding: 16px 32px;
   background: white;
@@ -186,18 +214,18 @@ body {
 }
 
 .discount {
-  padding: 50px 100px;
+  padding: 50px 30px;
   margin: 0px 50px;
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 20px;
 }
 .blank-sec {
   height: 130px;
-  max-width: 80%;
-  margin-left: 127px;
+  max-width: 92%;
+  margin-left: 50px;
   margin-top: -78px;
   background-color: #f00;
   border-radius: 15px 0px 15px 15px;
