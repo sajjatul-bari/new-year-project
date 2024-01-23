@@ -254,6 +254,9 @@ body {
   height: 399px;
   margin: 5px;
 }
+.p-img:hover {
+  opacity: 0.2;
+}
 
 .subscribe {
   padding: 50px 100px 100px 100px;
